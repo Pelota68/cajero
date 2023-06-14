@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cajero</title>
+
+</head>
+
+<body>
+    <h1>cajero</h1>
+
+    <form>
+        <label for="name"> nombre:</label>
+        <input id="name" type="text" name="mali" id="">
+        <br>
+        <label for="ipass">contraseña:</label>
+        </br>
+        <input id="pass" type="password" name="m" id="">
+        <input type= "button" value="ingresar" onclick="ingre(this.form)">
+
+        <label for="saldo">consultar saldo</label>
+        <input id="saldo" type="text" name="saldo">
+        <label for="monto">ingresar monto</label>
+        <input id="monto" type="text" name="monto">
+        <label for="monto">retirar monto</label>
+        <input id="monto" type="text" name="monto">
+
+    </form>
+    <script>
+        function ingre(form) {
+            if (form.mali.value == "mali") {
+                if (form.m.value == "123")
+                    alert("bienvenido");
+                else {
+                    alert("error de pasword");
+                }
+            }
+        }
+    </script>
+</body>
+<script src="cajero1.js"></script>
+
+</html>
